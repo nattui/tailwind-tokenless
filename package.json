@@ -1,22 +1,32 @@
 {
   "name": "@nattui/tailwind-tokenless",
-  "version": "0.0.0-alpha.1",
+  "version": "0.0.0-alpha.2",
   "description": "Tailwind CSS without tokens",
-  "author": "Natt Nguyen",
-  "main": "src/index.css",
+  "homepage": "https://github.com/nattui/tailwind-tokenless",
+  "bugs": {
+    "url": "https://github.com/nattui/tailwind-tokenless/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nattui/tailwind-tokenless.git"
+  },
+  "license": "MIT",
+  "author": "Natt Nguyen <hello@natt.sh> (https://natt.sh)",
   "style": "src/index.css",
   "files": [
     "src"
   ],
   "scripts": {
     "format": "prettier --check .",
-    "format:fix": "prettier --write ."
+    "format:fix": "prettier --write .",
+    "update": "pnpx npm-check-updates -u"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.0.0",
-    "postcss": "^8.5.1",
     "prettier": "^3.4.2",
-    "prettier-plugin-packagejson": "^2.5.8",
-    "tailwindcss": "^4.0.0"
-  }
+    "prettier-plugin-packagejson": "^2.5.8"
+  },
+  "tags": [
+    "css",
+    "tailwindcss"
+  ]
 }
