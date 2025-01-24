@@ -1,6 +1,6 @@
 {
   "name": "@nattui/tailwind-tokenless",
-  "version": "0.0.0-alpha.5",
+  "version": "0.0.0-alpha.8",
   "description": "Tailwind CSS without tokens",
   "homepage": "https://github.com/nattui/tailwind-tokenless",
   "bugs": {
@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "author": "Natt Nguyen <hello@natt.sh> (https://natt.sh)",
-  "style": "styles/index.css",
+  "style": "styles/16/index.css",
   "files": [
     "styles"
   ],

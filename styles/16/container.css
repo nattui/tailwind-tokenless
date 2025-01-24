@@ -1,0 +1,16 @@
+@theme {
+  --container-*: initial;
+  --container-256: 16rem;
+  --container-288: 18rem;
+  --container-320: 20rem;
+  --container-384: 24rem;
+  --container-448: 28rem;
+  --container-512: 32rem;
+  --container-576: 36rem;
+  --container-672: 42rem;
+  --container-768: 48rem;
+  --container-896: 56rem;
+  --container-1024: 64rem;
+  --container-1152: 72rem;
+  --container-1280: 80rem;
+}
