@@ -1,5 +1,5 @@
 {
-  "name": "tailwind-tokenless",
+  "name": "@nattui/tailwind-tokenless",
   "version": "0.0.0-alpha.1",
   "description": "Tailwind CSS without tokens",
   "author": "Natt Nguyen",
