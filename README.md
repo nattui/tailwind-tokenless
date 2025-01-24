@@ -12,20 +12,12 @@ npm install @nattui/tailwind-tokenless
 
 ### Usage
 
+`styles/global.css`
+
 ```css
 @import "tailwindcss";
 @import "@nattui/tailwind-tokenless";
 
-html {
-  font-size: 10px;
-}
-```
-
-### Root font size 10px
-
-`apps/styles/global.css`
-
-```css
 html {
   font-size: 10px;
 }
