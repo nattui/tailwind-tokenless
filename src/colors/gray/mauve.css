@@ -1,14 +1,14 @@
 @theme {
-  --mauve-1: #fdfcfd;
-  --mauve-2: #faf9fb;
-  --mauve-3: #f2eff3;
-  --mauve-4: #eae7ec;
-  --mauve-5: #e3dfe6;
-  --mauve-6: #dbd8e0;
-  --mauve-7: #d0cdd7;
-  --mauve-8: #bcbac7;
-  --mauve-9: #8e8c99;
-  --mauve-10: #84828e;
-  --mauve-11: #65636d;
-  --mauve-12: #211f26;
+  --gray-1: #fdfcfd;
+  --gray-2: #faf9fb;
+  --gray-3: #f2eff3;
+  --gray-4: #eae7ec;
+  --gray-5: #e3dfe6;
+  --gray-6: #dbd8e0;
+  --gray-7: #d0cdd7;
+  --gray-8: #bcbac7;
+  --gray-9: #8e8c99;
+  --gray-10: #84828e;
+  --gray-11: #65636d;
+  --gray-12: #211f26;
 }
