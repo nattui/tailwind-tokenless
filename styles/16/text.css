@@ -1,20 +1,20 @@
 @theme {
   --text-*: initial;
-  --text-12: 1.2rem;
-  --text-14: 1.4rem;
-  --text-16: 1.6rem;
-  --text-18: 1.8rem;
-  --text-20: 2rem;
-  --text-24: 2.4rem;
-  --text-30: 3rem;
-  --text-36: 3.6rem;
-  --text-48: 4.8rem;
-  --text-60: 6rem;
-  --text-72: 7.2rem;
-  --text-96: 9.6rem;
-  --text-128: 12.8rem;
+  --text-12: 0.75rem;
+  --text-14: 0.875rem;
+  --text-16: 1rem;
+  --text-18: 1.125rem;
+  --text-20: 1.25rem;
+  --text-24: 1.5rem;
+  --text-30: 1.875rem;
+  --text-36: 2.25rem;
+  --text-48: 3rem;
+  --text-60: 3.75rem;
+  --text-72: 4.5rem;
+  --text-96: 6rem;
+  --text-128: 8rem;
 
   /* Custom */
-  --text-13: 1.3rem;
-  --text-15: 1.5rem;
+  --text-13: 0.8125rem;
+  --text-15: 0.9375rem;
 }

@@ -1,10 +1,10 @@
 @theme {
   --breakpoint-*: initial;
-  --breakpoint-320: 32rem;
-  --breakpoint-480: 48rem;
-  --breakpoint-640: 64rem;
-  --breakpoint-768: 76.8rem;
-  --breakpoint-1024: 102.4rem;
-  --breakpoint-1280: 128rem;
-  --breakpoint-1400: 140rem;
+  --breakpoint-320: 20rem;
+  --breakpoint-480: 30rem;
+  --breakpoint-640: 40rem;
+  --breakpoint-768: 48rem;
+  --breakpoint-1024: 64rem;
+  --breakpoint-1280: 80rem;
+  --breakpoint-1400: 87.5rem;
 }
