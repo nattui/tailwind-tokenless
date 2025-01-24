@@ -1,0 +1,28 @@
+@layer primer.support {
+  @theme light {
+    --sage-alpha-1: rgba(234, 238, 234, 0.2);
+    --sage-alpha-2: rgba(209, 219, 209, 0.3);
+    --sage-alpha-3: rgba(164, 186, 164, 0.4);
+    --sage-alpha-4: rgba(139, 163, 140, 0.5);
+    --sage-alpha-5: rgba(112, 139, 113, 0.6);
+    --sage-alpha-6: rgba(89, 115, 90, 0.7);
+    --sage-alpha-7: rgba(70, 93, 71, 0.8);
+    --sage-alpha-8: rgba(51, 71, 52, 0.9);
+    --sage-alpha-9: rgba(31, 48, 32, 1);
+  }
+}
+
+@theme {
+  --sage-a1: #00804003;
+  --sage-a2: #00402006;
+  --sage-a3: #00402010;
+  --sage-a4: #00402018;
+  --sage-a5: #00402020;
+  --sage-a6: #00402027;
+  --sage-a7: #00402032;
+  --sage-a8: #00402045;
+  --sage-a9: #00301873;
+  --sage-a10: #0030187d;
+  --sage-a11: #0020109c;
+  --sage-a12: #00100ae0;
+}
