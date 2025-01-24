@@ -12,9 +12,9 @@
   },
   "license": "MIT",
   "author": "Natt Nguyen <hello@natt.sh> (https://natt.sh)",
-  "style": "src/index.css",
+  "style": "styles/index.css",
   "files": [
-    "src"
+    "styles"
   ],
   "scripts": {
     "format": "prettier --check .",
