@@ -52,5 +52,5 @@ html {
 @import "@nattui/tailwind-tokenless/styles/colors/reset.css";
 @import "@nattui/tailwind-tokenless/styles/colors/gray/mauve.css";
 @import "@nattui/tailwind-tokenless/styles/colors/gray/mauve-alpha.css";
-@import "@nattui/tailwind-tokenless/styles/colors/crimson.css";
+@import "@nattui/tailwind-tokenless/styles/colors/primary/crimson.css";
 ```
