@@ -1,0 +1,18 @@
+@theme {
+  color-scheme: light;
+}
+
+:root {
+  --sage-1: #fbfdfc;
+  --sage-2: #f8faf9;
+  --sage-3: #f1f4f3;
+  --sage-4: #eaf0ee;
+  --sage-5: #e4e9e7;
+  --sage-6: #dce2e0;
+  --sage-7: #d1d7d5;
+  --sage-8: #bcc3c1;
+  --sage-9: #8d9492;
+  --sage-10: #838987;
+  --sage-11: #656b69;
+  --sage-12: #212422;
+}
