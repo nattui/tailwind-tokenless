@@ -1,0 +1,14 @@
+@theme {
+  --color-primary-a1: rgba(0, 0, 0, 0.05);
+  --color-primary-a2: rgba(0, 0, 0, 0.1);
+  --color-primary-a3: rgba(0, 0, 0, 0.15);
+  --color-primary-a4: rgba(0, 0, 0, 0.2);
+  --color-primary-a5: rgba(0, 0, 0, 0.3);
+  --color-primary-a6: rgba(0, 0, 0, 0.4);
+  --color-primary-a7: rgba(0, 0, 0, 0.5);
+  --color-primary-a8: rgba(0, 0, 0, 0.6);
+  --color-primary-a9: rgba(0, 0, 0, 0.7);
+  --color-primary-a10: rgba(0, 0, 0, 0.8);
+  --color-primary-a11: rgba(0, 0, 0, 0.9);
+  --color-primary-a12: rgba(0, 0, 0, 0.95);
+}
