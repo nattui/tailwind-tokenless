@@ -1,0 +1,20 @@
+@theme {
+  --text-*: initial;
+  --text-12: 1.2rem;
+  --text-14: 1.4rem;
+  --text-16: 1.6rem;
+  --text-18: 1.8rem;
+  --text-20: 2rem;
+  --text-24: 2.4rem;
+  --text-30: 3rem;
+  --text-36: 3.6rem;
+  --text-48: 4.8rem;
+  --text-60: 6rem;
+  --text-72: 7.2rem;
+  --text-96: 9.6rem;
+  --text-128: 12.8rem;
+
+  /* Custom */
+  --text-13: 1.3rem;
+  --text-15: 1.5rem;
+}

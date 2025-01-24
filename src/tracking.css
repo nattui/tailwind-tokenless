@@ -1,0 +1,9 @@
+@theme {
+  --tracking-*: initial;
+  --tracking-1: -0.05em;
+  --tracking-2: -0.025em;
+  --tracking-3: 0em;
+  --tracking-4: 0.025em;
+  --tracking-5: 0.05em;
+  --tracking-6: 0.1em;
+}

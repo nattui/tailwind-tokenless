@@ -1,0 +1,6 @@
+@theme {
+  --aspect-*: initial;
+  --aspect-1-1: 1 / 1;
+  --aspect-4-3: 4 / 3;
+  --aspect-16-9: 16 / 9;
+}
