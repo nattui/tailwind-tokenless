@@ -1,6 +1,6 @@
 {
   "name": "@nattui/tailwind-tokenless",
-  "version": "0.0.0-alpha.3",
+  "version": "0.0.0-alpha.4",
   "description": "Tailwind CSS without tokens",
   "homepage": "https://github.com/nattui/tailwind-tokenless",
   "bugs": {
