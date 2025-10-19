@@ -1,5 +1,5 @@
 @theme {
-  --perspective-*: initial;
+  --perspective-\*: initial;
   --perspective-0: 0px;
   --perspective-100: 100px;
   --perspective-300: 300px;

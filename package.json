@@ -19,7 +19,7 @@
   "scripts": {
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
-    "update": "pnpx npm-check-updates -u"
+    "update": "bun update --interactive"
   },
   "devDependencies": {
     "prettier": "^3.5.3",

@@ -1,5 +1,5 @@
 @theme {
-  --container-*: initial;
+  --container-\*: initial;
   --container-256: 16rem;
   --container-288: 18rem;
   --container-320: 20rem;

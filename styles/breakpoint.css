@@ -1,5 +1,5 @@
 @theme {
-  --breakpoint-*: initial;
+  --breakpoint-\*: initial;
   --breakpoint-320: 320px;
   --breakpoint-480: 480px;
   --breakpoint-640: 640px;
