@@ -1,8 +1,8 @@
 # @nattui/tailwind-one
 
-> Precision styling for developers who think in pixels
+> Precision styling, mapped one to one
 
-Tailwind One is a Tailwind CSS v4 theme that replaces abstract design tokens with intuitive pixel-based values. Say goodbye to memorizing what `spacing-4` means—with Tailwind One, the class names match the actual pixel dimensions.
+Tailwind One is a Tailwind CSS v4 theme where class names map directly to pixel values. No more memorizing arbitrary tokens—`spacing-24` means exactly 24 pixels. One class, one value.
 
 ## Why Tailwind One?
 
