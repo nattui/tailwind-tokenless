@@ -1,6 +1,6 @@
 # Tailwind Tokenless
 
-Tailwind CSS without tokens.
+Tailwind CSS without tokens
 
 ## Getting started
 
@@ -18,7 +18,7 @@ npm install @nattui/tailwind-tokenless
 
 ```css
 @import "tailwindcss";
-@import "@nattui/tailwind-tokenless";
+@import "@nattui/tailwind-tokenless/styles/16/index.css";
 ```
 
 #### Base 10
@@ -27,7 +27,7 @@ npm install @nattui/tailwind-tokenless
 
 ```css
 @import "tailwindcss";
-@import "@nattui/tailwind-tokenless/styles/10/index.css";
+@import "@nattui/tailwind-tokenless";
 
 html {
   font-size: 10px;
@@ -40,17 +40,4 @@ html {
 {
   "tailwindCSS.rootFontSize": 10
 }
-```
-
-#### Colors
-
-`styles/global.css`
-
-```css
-/* Order matters */
-@import "tailwindcss";
-@import "@nattui/tailwind-tokenless/styles/colors/reset.css";
-@import "@nattui/tailwind-tokenless/styles/colors/gray/mauve.css";
-@import "@nattui/tailwind-tokenless/styles/colors/gray/mauve-alpha.css";
-@import "@nattui/tailwind-tokenless/styles/colors/primary/crimson.css";
 ```
