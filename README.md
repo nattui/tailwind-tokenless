@@ -1,95 +1,117 @@
-# @nattui/tailwind-one
+# @nattui/tailwind-exact
 
-> Precision styling, mapped one to one
+**Precision styling, mapped one to one**
 
-Tailwind One is a Tailwind CSS v4 theme where class names map directly to pixel values. No more memorizing arbitrary tokens—`spacing-24` means exactly 24 pixels. One class, one value.
+A Tailwind CSS theme library providing pixel-perfect utility classes with exact, precise spacing and sizing values. Perfect for design systems that require precise control over measurements.
 
-## Why Tailwind One?
+## Features
 
-Traditional design systems use arbitrary tokens (`spacing-4`, `spacing-8`) that require mental translation. Tailwind One eliminates this cognitive overhead:
-
-- **Intuitive**: `spacing-24` means 24 pixels
-- **Predictable**: Class names directly correspond to pixel values
-- **Flexible**: Choose between 10px or 16px base font sizes
-- **Modern**: Built for Tailwind CSS v4's `@theme` directive
+- 🎯 **Precision styling** - Exact spacing and sizing values mapped one-to-one
+- 📏 **Two base scales** - Available in base 10 and base 16 configurations
+- 🎨 **Comprehensive utilities** - Container, spacing, text, radius, shadows, blur, and more
+- ⚡ **Tailwind v4 compatible** - Built with modern `@theme` syntax
+- 📦 **Lightweight** - Import only what you need
 
 ## Installation
 
 ```bash
-npm install @nattui/tailwind-one
+npm install @nattui/tailwind-exact
 # or
-pnpm add @nattui/tailwind-one
+bun add @nattui/tailwind-exact
 # or
-bun add @nattui/tailwind-one
+yarn add @nattui/tailwind-exact
 ```
 
 ## Usage
 
-Import Tailwind One in your CSS file:
+### Base 10 Scale
 
 ```css
-/* For 10px base (1rem = 10px) */
-@import "@nattui/tailwind-one";
-
-/* OR for 16px base (1rem = 16px) */
-@import "@nattui/tailwind-one/styles/16/index.css";
+@import "@nattui/tailwind-exact";
 ```
 
-Then use the classes in your HTML:
+### Base 16 Scale
 
-```html
-<div class="p-24 m-16 shadow-4 rounded-8">
-  <!-- padding: 24px, margin: 16px -->
-</div>
+```css
+@import "@nattui/tailwind-exact/styles/16/index.css";
 ```
 
-## Base Size Variants
+### Individual Utilities
 
-### 10px Base (`styles/10/`)
+Import specific utilities as needed:
 
-- `spacing-10` = 1rem = 10px
-- `spacing-20` = 2rem = 20px
-- Ideal for designs that prefer decimal simplicity
-
-### 16px Base (`styles/16/`)
-
-- `spacing-16` = 1rem = 16px
-- `spacing-32` = 2rem = 32px
-- Aligns with browser defaults and accessibility standards
+```css
+@import "@nattui/tailwind-exact/styles/10/spacing.css";
+@import "@nattui/tailwind-exact/styles/10/text.css";
+@import "@nattui/tailwind-exact/styles/shadow.css";
+```
 
 ## Available Utilities
 
-Tailwind One includes pixel-perfect values for:
+### Spacing
+Precise spacing values from 0 to 384 (in 0.1rem increments for base 10, or equivalent for base 16).
 
-- **Spacing**: `0`, `1`, `2`, `4`, `6`, `8`, `10`, `12`, `14`, `16`, `20`, `24`, `28`, `32`, `36`, `40`, `44`, `48`, `56`, `64`, `80`, `96`, `112`, `128`, `144`, `160`, `176`, `192`, `208`, `224`, `240`, `256`, `288`, `320`, `384`
-- **Shadows**: `shadow-0` through `shadow-7`
-- **Text Shadows**: Custom text shadow utilities
-- **Drop Shadows**: Filter-based drop shadows
-- **Inset Shadows**: Inner shadow effects
-- **Blur**: Backdrop and regular blur values
-- **Border Radius**: Consistent rounded corner values
-- **Typography**: Font weights, line heights, letter spacing
-- **Containers**: Max-width container utilities
-- **Aspect Ratios**: Common aspect ratio utilities
-- **Breakpoints**: Responsive design breakpoints
-- **Perspective**: 3D transform perspective values
+### Text Sizes
+Exact text sizing from 12px to 128px with custom intermediate sizes.
 
-## Importing Individual Utilities
+### Radius
+Border radius utilities for consistent rounded corners.
 
-You can also import specific utilities instead of the entire bundle:
+### Container
+Container sizing utilities for responsive layouts.
 
-```css
-@import "@nattui/tailwind-one/styles/10/spacing.css";
-@import "@nattui/tailwind-one/styles/shadow.css";
-@import "@nattui/tailwind-one/styles/blur.css";
+### Shadows & Effects
+- Drop shadow
+- Inset shadow
+- Text shadow
+- Blur effects
+- Perspective dramatic effects
+
+### Typography
+- Font weight
+- Line height (leading)
+- Letter spacing (tracking)
+
+### Layout
+- Aspect ratio utilities
+- Breakpoint utilities
+
+## Examples
+
+```html
+<!-- Spacing -->
+<div class="p-10 m-20">Precise padding and margin</div>
+
+<!-- Text -->
+<h1 class="text-24">Exact text size</h1>
+
+<!-- Radius -->
+<div class="rounded-12">Precise border radius</div>
 ```
 
-## Tailwind CSS v4 Compatibility
+## Version Structure
 
-Tailwind One is built for Tailwind CSS v4 and uses the modern `@theme` directive to define CSS custom properties. Make sure you're using Tailwind CSS v4 or later.
+The library provides two main versions:
 
-## Philosophy
+- **`styles/10/`** - Base 10 scale (default)
+- **`styles/16/`** - Base 16 scale
 
-Design systems often abstract values to maintain consistency, but this comes at a cost: cognitive overhead. When a developer sees `spacing-4`, they need to remember or look up what that means in pixels.
+Each version includes:
+- `container.css` - Container utilities
+- `radius.css` - Border radius utilities
+- `spacing.css` - Spacing utilities
+- `text.css` - Text size utilities
+- `index.css` - Complete bundle with all utilities
 
-Tailwind One takes a different approach: **the class name IS the value**. This eliminates translation overhead while maintaining the power and flexibility of Tailwind's utility-first approach.
+## Development
+
+```bash
+# Format code
+bun run format
+
+# Fix formatting
+bun run format:fix
+
+# Update dependencies
+bun run update
+```
