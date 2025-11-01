@@ -1,12 +1,12 @@
-# Pixelwind
+# @nattui/tailwind-one
 
 > Precision styling for developers who think in pixels
 
-Pixelwind is a Tailwind CSS v4 theme that replaces abstract design tokens with intuitive pixel-based values. Say goodbye to memorizing what `spacing-4` means—with Pixelwind, the class names match the actual pixel dimensions.
+Tailwind One is a Tailwind CSS v4 theme that replaces abstract design tokens with intuitive pixel-based values. Say goodbye to memorizing what `spacing-4` means—with Tailwind One, the class names match the actual pixel dimensions.
 
-## Why Pixelwind?
+## Why Tailwind One?
 
-Traditional design systems use arbitrary tokens (`spacing-4`, `spacing-8`) that require mental translation. Pixelwind eliminates this cognitive overhead:
+Traditional design systems use arbitrary tokens (`spacing-4`, `spacing-8`) that require mental translation. Tailwind One eliminates this cognitive overhead:
 
 - **Intuitive**: `spacing-24` means 24 pixels
 - **Predictable**: Class names directly correspond to pixel values
@@ -16,23 +16,23 @@ Traditional design systems use arbitrary tokens (`spacing-4`, `spacing-8`) that 
 ## Installation
 
 ```bash
-npm install @nattui/pixelwind
+npm install @nattui/tailwind-one
 # or
-pnpm add @nattui/pixelwind
+pnpm add @nattui/tailwind-one
 # or
-bun add @nattui/pixelwind
+bun add @nattui/tailwind-one
 ```
 
 ## Usage
 
-Import Pixelwind in your CSS file:
+Import Tailwind One in your CSS file:
 
 ```css
 /* For 10px base (1rem = 10px) */
-@import "@nattui/pixelwind";
+@import "@nattui/tailwind-one";
 
 /* OR for 16px base (1rem = 16px) */
-@import "@nattui/pixelwind/styles/16/index.css";
+@import "@nattui/tailwind-one/styles/16/index.css";
 ```
 
 Then use the classes in your HTML:
@@ -59,7 +59,7 @@ Then use the classes in your HTML:
 
 ## Available Utilities
 
-Pixelwind includes pixel-perfect values for:
+Tailwind One includes pixel-perfect values for:
 
 - **Spacing**: `0`, `1`, `2`, `4`, `6`, `8`, `10`, `12`, `14`, `16`, `20`, `24`, `28`, `32`, `36`, `40`, `44`, `48`, `56`, `64`, `80`, `96`, `112`, `128`, `144`, `160`, `176`, `192`, `208`, `224`, `240`, `256`, `288`, `320`, `384`
 - **Shadows**: `shadow-0` through `shadow-7`
@@ -79,17 +79,17 @@ Pixelwind includes pixel-perfect values for:
 You can also import specific utilities instead of the entire bundle:
 
 ```css
-@import "@nattui/pixelwind/styles/10/spacing.css";
-@import "@nattui/pixelwind/styles/shadow.css";
-@import "@nattui/pixelwind/styles/blur.css";
+@import "@nattui/tailwind-one/styles/10/spacing.css";
+@import "@nattui/tailwind-one/styles/shadow.css";
+@import "@nattui/tailwind-one/styles/blur.css";
 ```
 
 ## Tailwind CSS v4 Compatibility
 
-Pixelwind is built for Tailwind CSS v4 and uses the modern `@theme` directive to define CSS custom properties. Make sure you're using Tailwind CSS v4 or later.
+Tailwind One is built for Tailwind CSS v4 and uses the modern `@theme` directive to define CSS custom properties. Make sure you're using Tailwind CSS v4 or later.
 
 ## Philosophy
 
 Design systems often abstract values to maintain consistency, but this comes at a cost: cognitive overhead. When a developer sees `spacing-4`, they need to remember or look up what that means in pixels.
 
-Pixelwind takes a different approach: **the class name IS the value**. This eliminates translation overhead while maintaining the power and flexibility of Tailwind's utility-first approach.
+Tailwind One takes a different approach: **the class name IS the value**. This eliminates translation overhead while maintaining the power and flexibility of Tailwind's utility-first approach.
