@@ -1,20 +1,19 @@
 {
-  "name": "@nattui/tailwind-tokenless",
+  "name": "@nattui/pixelwind",
   "version": "0.0.6",
-  "description": "Tailwind CSS without tokens",
+  "description": "Precision styling for developers who think in pixels",
   "keywords": [
     "css",
     "tailwindcss"
   ],
-  "homepage": "https://github.com/nattui/tailwind-tokenless",
+  "homepage": "https://github.com/nattui/pixelwind",
   "bugs": {
-    "url": "https://github.com/nattui/tailwind-tokenless/issues"
+    "url": "https://github.com/nattui/pixelwind/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nattui/tailwind-tokenless.git"
+    "url": "git+https://github.com/nattui/pixelwind.git"
   },
-  "license": "MIT",
   "author": "Natt Nguyen <hello@natt.sh> (https://natt.sh)",
   "type": "module",
   "style": "styles/10/index.css",
