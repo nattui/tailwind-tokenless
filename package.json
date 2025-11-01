@@ -3,12 +3,12 @@
   "version": "0.0.6",
   "description": "Precision styling, mapped one to one",
   "keywords": [
-    "tailwindcss",
     "css",
-    "theme",
-    "utilities",
     "design-system",
-    "pixel-perfect"
+    "pixel-perfect",
+    "tailwindcss",
+    "theme",
+    "utilities"
   ],
   "homepage": "https://github.com/nattui/tailwind-one",
   "bugs": {
