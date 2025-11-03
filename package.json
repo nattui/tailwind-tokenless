@@ -1,6 +1,6 @@
 {
   "name": "@nattui/tailwind-exact",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Precision styling, mapped one to one",
   "keywords": [
     "css",
